@@ -1,0 +1,35 @@
+#include <iostream>
+using namespace std;
+int main() {
+    
+    int i=69;
+    int set_bit;
+    int reset_bit;
+    int set,reset;
+    
+    cout<<"Enter bit to set:"<<endl;
+    cin>>set_bit;
+    set=i|(1<<set_bit);
+    cout<<"Your number is: "<<set<<endl;
+    
+    cout<<endl;
+    
+    cout<<"Enter bit to reset: "<<endl;
+    cin>>reset_bit;
+    reset= i&(~(1<<reset_bit));
+    cout<<"Your number is:"<<reset<<endl;
+    
+    return 0;
+}
+
+//output:
+//Enter bit to set:
+//1
+//Your number is: 71
+
+//Enter bit to reset: 
+//1
+//Your number is:69
+
+
+//=== Code Execution Successful ===
