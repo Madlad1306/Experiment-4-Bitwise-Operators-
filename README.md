@@ -1,1 +1,4 @@
 # Experiment-4-Bitwise-Operators-
+
+Bitwise operators in C++ allow direct manipulation of the binary (bit-level) representation of integers. These operators include AND (&), OR (|), XOR (^), NOT (~), left shift (<<), and right shift (>>). They operate on each bit of the operands and are commonly used in low-level or system programming, embedded systems, and hardware interfacing. For instance, the AND operator can be used to mask certain bits (i.e., turn specific bits off), while the OR operator can turn specific bits on. XOR is often used for toggling bits or performing encryption logic. The NOT operator inverts all bits, and shift operators move bits left or right, effectively multiplying or dividing the number by powers of two. Bitwise operations are highly efficient and useful in scenarios where performance and memory control are critical, such as in device drivers, flag registers, or graphics programming.
+
